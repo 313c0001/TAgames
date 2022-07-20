@@ -3,18 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - 
   - 
-  - 
-  - 
+  - Utage
+  - UtageUI
   - 
   - 
   - 
