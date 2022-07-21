@@ -14,6 +14,9 @@ EditorUserSettings:
     Utage.Utage.AdvScenarioViewer:
       value: 2256752724745c41345d2634120447211444363a280f2a262f2e1904d8d71a68e0b41ff0c31f191e0837c91e350b271dc33f2f29c63a5306135ce50525ac2643249736c918c53905ca2e44e6fc1088f5d7f1e2e2daecd5faebebf0ab
       flags: 0
+    Utage.Utage.FontChanger:
+      value: 2260752724745c41345d2634120447211444363a280f2a262f2e1904d8d71a68e0b41ff0c31f191e0837c91e350b271dc33f2f29c63a5756
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
