@@ -23,12 +23,15 @@ public class Player : MonoBehaviour
     public float kakudo = -90.0f;
     Rigidbody2D rbody;
 
+    public static bool StartPoint = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
         oldAnime = down;
+        
     }
 
     // Update is called once per frame
@@ -67,8 +70,14 @@ public class Player : MonoBehaviour
             oldAnime = nowAnime;
             GetComponent<Animator>().Play(nowAnime);
         }
+        if (StartPoint == true)
+        {
+           GameObject startpoint = GameObject.FindGameObjectWithTag("startpoint");
+           transform.position = new Vector3(startpoint.transform.position.x, startpoint.transform.position.y, 3);
+            StartPoint = false;
+        }
 
-        
+
     }
     void FixedUpdate()
     {

@@ -7,13 +7,15 @@ public class Window : MonoBehaviour
 
 {
     public static bool boxColision = false;
+    public static bool GameStart = false;
     public static string boxName = "";
-    public GameObject ball;
+    public static GameObject ball;
 
     // Start is called before the first frame update
     void Start()
     {
         ball = GameObject.Find("utageContorol");
+        
     }
 
     // Update is called once per frame
@@ -21,12 +23,20 @@ public class Window : MonoBehaviour
     {
         if (boxColision == true)
         {
-            Debug.Log(boxColision);
+            Debug.Log(boxName);
+
             //utaStart = new AdvEngine.JumpScenario("startstep");
-            ball.GetComponent<SampleAdvEngineController>().JumpScenario("testone");
+            ball.GetComponent<SampleAdvEngineController>().JumpScenario(boxName);
             boxColision = false;
 
         }
+        if (GameStart ==true)
+        {
+            ball.GetComponent<SampleAdvEngineController>().JumpScenario("TAstart");
+            GameStart = false;
 
+        }
     }
+
+    
 }
