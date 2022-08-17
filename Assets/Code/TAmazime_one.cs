@@ -2,29 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sensei : MonoBehaviour
+public class TAmazime_one : MonoBehaviour
 {
-    
-    string nameset ="";
+
+    string nameset = "";
     public string namaset1 = "";
     public string namaset2 = "";
     public string namaset3 = "";
-    public static float senseihantei = 0;
+    public static bool gotit = false;
+    public static float hantei = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (TAsintyo_one.gotit ==true && TAmazime_one.gotit==true )
-        {
-            senseihantei = 2;
-        }
-        
-        switch (senseihantei)
+        switch (hantei)
         {
             case 0:
                 nameset = namaset1;

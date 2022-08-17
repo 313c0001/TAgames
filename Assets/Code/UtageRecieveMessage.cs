@@ -32,7 +32,17 @@ public class UtageRecieveMessage : MonoBehaviour
             case "startpoint":
                 Player.StartPoint = true;
                 break;
-            default:
+
+            case "senseifirst":
+                sensei.senseihantei = 1;
+                break;
+            case "TAmazime_one":
+                TAmazime_one.gotit = true;
+                break;
+            case "TAsintyo_one":
+                TAsintyo_one.gotit = true;
+                break;
+            default:            
                 Debug.Log("Unknown Message!!:" + command.Name);
                 break;
         }

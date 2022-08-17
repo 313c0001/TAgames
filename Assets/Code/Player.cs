@@ -24,6 +24,10 @@ public class Player : MonoBehaviour
     Rigidbody2D rbody;
 
     public static bool StartPoint = false;
+    public static bool door = false;
+
+    public static GameObject doorto;
+
 
 
     // Start is called before the first frame update
@@ -76,6 +80,16 @@ public class Player : MonoBehaviour
            transform.position = new Vector3(startpoint.transform.position.x, startpoint.transform.position.y, 3);
             StartPoint = false;
         }
+        if (door ==true)
+        {
+            
+            transform.position = new Vector3(doorto.transform.position.x, doorto.transform.position.y, -3);
+            
+            doorto = null;
+            door = false;
+
+        }
+
 
 
     }
