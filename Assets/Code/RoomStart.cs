@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class student1 : MonoBehaviour
+public class RoomStart : MonoBehaviour
 {
 
     string nameset = "";
@@ -10,8 +10,6 @@ public class student1 : MonoBehaviour
     public string namaset2 = "";
     public string namaset3 = "";
     public static bool gotit = false;
-    public static float select = 0;
-    // どの選択肢をstudent1イベントで選んだかを格納する
     public static float hantei = 0;
     public GameObject playerPosition;
 
@@ -26,7 +24,9 @@ public class student1 : MonoBehaviour
     {
         if (gotit == true)
         {
-                  
+            
+            Player.doorto = playerPosition;
+            Player.door = true;
             hantei = 3;
             gotit = false;
 

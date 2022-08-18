@@ -42,7 +42,13 @@ public class UtageRecieveMessage : MonoBehaviour
             case "TAsintyo_one":
                 TAsintyo_one.gotit = true;
                 break;
-            default:            
+            case "TAman_one":
+                TAman.gotit = true;
+                break;
+            case "RoomStart":
+                RoomStart.gotit = true;
+                break;
+            default:       
                 Debug.Log("Unknown Message!!:" + command.Name);
                 break;
         }

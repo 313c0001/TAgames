@@ -43,9 +43,17 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u5148\u751F"
+      - "\u5148\u751F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/student_1/student_1.xls:Character
     type: 1
-    textLength: 154
+    textLength: 158
     headerRow: 0
     sourceAssetInEditor: {fileID: 0}
   - rows:

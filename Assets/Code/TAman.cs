@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class student1 : MonoBehaviour
+public class TAman : MonoBehaviour
 {
 
     string nameset = "";
@@ -10,11 +10,8 @@ public class student1 : MonoBehaviour
     public string namaset2 = "";
     public string namaset3 = "";
     public static bool gotit = false;
-    public static float select = 0;
-    // どの選択肢をstudent1イベントで選んだかを格納する
     public static float hantei = 0;
-    public GameObject playerPosition;
-
+    public GameObject TAman_first;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +21,10 @@ public class student1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gotit == true)
+        if (gotit==true)
         {
-                  
             hantei = 3;
-            gotit = false;
-
+            transform.position = new Vector3(TAman_first.transform.position.x, TAman_first.transform.position.y, -3);
         }
         switch (hantei)
         {
