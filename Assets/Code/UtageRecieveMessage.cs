@@ -48,6 +48,73 @@ public class UtageRecieveMessage : MonoBehaviour
             case "RoomStart":
                 RoomStart.gotit = true;
                 break;
+            case "one_matsu":
+                student1.eventone_select = 1;
+                break;
+            case "one_yobu":
+                student1.eventone_select = 2;
+                break;
+            case "one_hoka":
+                student1.eventone_select = 3;
+                break;
+            case "one_matu":
+                student1.eventone_select = 4;
+                break;
+            case "G2":
+                sensei2.Groupe = 2;
+                break;
+            case "G3":
+                sensei2.Groupe = 3;
+                break;
+            case "G4":
+                sensei2.Groupe = 4;
+                break;
+            case "tyuui":
+                student2.eventone_select = 1;
+                sensei2.oneday2ndON = true;                
+                break;
+            case "miru":
+                student2.eventone_select = 2;
+                sensei2.oneday2ndON = true;
+                break;
+            case "houru":
+                student2.eventone_select = 3;
+                sensei2.oneday2ndON = true;
+                break;
+            case "ex":
+                student3.eventone_select = 1;
+                sensei2.oneday2ndON = true;
+                break;
+            case "keizoku":
+                student3.eventone_select = 2;
+                sensei2.oneday2ndON = true;
+                break;
+            case "kiku":
+                student3.eventone_select = 3;
+                sensei2.oneday2ndON = true;
+                break;
+            case "zenin":
+                student4.eventone_select = 1;
+                sensei2.oneday2ndON = true;
+                break;
+            case "haire":
+                student4.eventone_select = 2;
+                sensei2.oneday2ndON = true;
+                break;
+            case "simei":
+                student4.eventone_select = 3;
+                sensei2.oneday2ndON = true;
+                break;
+
+
+
+
+
+
+
+
+
+
             default:       
                 Debug.Log("Unknown Message!!:" + command.Name);
                 break;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class student1 : MonoBehaviour
+public class student2 : MonoBehaviour
 {
 
     string nameset = "";
@@ -13,9 +13,9 @@ public class student1 : MonoBehaviour
 
     public static float select = 0;
     // どの選択肢をstudent1イベントで選んだかを格納する
-    public static float hantei = 0;
+    public static float hantei = 3;
     public GameObject playerPosition;
-    public static bool eventone_gotit =false;
+    public static bool eventone_gotit = false;
     public static float eventone_select = 0;
 
 
@@ -28,9 +28,16 @@ public class student1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (sensei2.Groupe == 2)
+        {
+            if (sensei2.bamen == 0)
+            {
+                hantei = 0;
+            }
+        }
         
-        
-        switch (hantei)
+
+            switch (hantei)
         {
             case 0:
                 nameset = namaset1;

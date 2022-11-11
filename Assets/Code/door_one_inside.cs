@@ -43,4 +43,4 @@ public class door_one_inside : MonoBehaviour
         }
 
     }
-}
+} 

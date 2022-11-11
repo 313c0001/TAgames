@@ -11,6 +11,7 @@ public class Window : MonoBehaviour
     public static string boxName = "";
     public static GameObject ball;
 
+
     // Start is called before the first frame update
     void Start()
     {
