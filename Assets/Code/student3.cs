@@ -16,7 +16,8 @@ public class student3 : MonoBehaviour
     public static float hantei = 3;
         public static bool eventone_gotit = false;
     public static float eventone_select = 0;
-
+    public static float eventtwo_select = 0;
+    public static float eventtwo_san = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,16 @@ public class student3 : MonoBehaviour
             {
                 hantei = 0;
             }
+            if (sensei2.bamen == 3)
+            {
+                hantei = 1;
+            }
+            if (sensei2.bamen == 4)
+            {
+                hantei = 2;
+            }
+            
+
         }
 
 

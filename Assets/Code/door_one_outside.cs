@@ -18,6 +18,10 @@ public class door_one_outside : MonoBehaviour
     void Update()
     {
 
+        if (sensei2.bamen == 1)
+        {
+            isCol = false;
+        }
         if ((isCol == true) && (Input.GetKeyDown("z") == true))
         {
 

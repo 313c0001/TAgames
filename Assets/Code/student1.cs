@@ -17,6 +17,8 @@ public class student1 : MonoBehaviour
     public GameObject playerPosition;
     public static bool eventone_gotit =false;
     public static float eventone_select = 0;
+    public static float eventtwo_select = 0;
+    public static float eventtwo_san = 0;
 
 
     // Start is called before the first frame update
@@ -29,7 +31,14 @@ public class student1 : MonoBehaviour
     void Update()
     {
         
-        
+        if (sensei2.bamen ==1)
+        {
+            hantei = 1;
+        }
+        else if (sensei2.bamen ==4)
+        {
+            hantei = 2;
+        }
         switch (hantei)
         {
             case 0:

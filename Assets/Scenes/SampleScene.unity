@@ -942,9 +942,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.10127592
+    x: 0.100478455
     y: 0
-    width: 0.79744816
+    width: 0.79904306
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -1457,7 +1457,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1883697640, guid: 9abd4ed982852e94eae2518ae09c0362, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1496,9 +1496,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8efa572fe5787524bb5cb05361ff6ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namaset1: sensei_houkoku
-  namaset2: 
-  namaset3: 
+  namaset1: 
+  namaset2: sensei_houkoku
+  namaset3: sensei3
+  namaset4: sensei4
 --- !u!1 &361682495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6338,9 +6339,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.10127592
+    x: 0.100478455
     y: 0
-    width: 0.79744816
+    width: 0.79904306
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -6708,9 +6709,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.10127592
+    x: 0.100478455
     y: 0
-    width: 0.79744816
+    width: 0.79904306
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -7441,7 +7442,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1983067557, guid: 3a7f578cccff4a544b289b069be0ebfa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9128,6 +9129,9 @@ MonoBehaviour:
   namaset1: matome1_1
   namaset2: matome1_2
   namaset3: matome1_3
+  namaset4: matome2_1
+  namaset5: matome2_2
+  namaset6: matome2_3
 --- !u!1 &1059437944
 GameObject:
   m_ObjectHideFlags: 0
@@ -9583,7 +9587,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1603935816, guid: 9abd4ed982852e94eae2518ae09c0362, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9625,6 +9629,15 @@ MonoBehaviour:
   namaset1: sensei_first
   namaset2: sensei_second
   namaset3: sensei_third
+  namaset4: sensei2nd
+  namaset5: end
+  coop: 0
+  hyouka1: 0
+  hyouka2: 0
+  hyouka3: 0
+  hyouka4: 0
+  ziritu: 0
+  endPoint: 0
 --- !u!1 &1116645034
 GameObject:
   m_ObjectHideFlags: 0
@@ -9926,8 +9939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   namaset1: student1
-  namaset2: 
-  namaset3: 
+  namaset2: student1_2
+  namaset3: student1_3
   playerPosition: {fileID: 0}
 --- !u!1 &1150323850
 GameObject:
@@ -10641,7 +10654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   namaset1: student4
-  namaset2: 
+  namaset2: student4_2
   namaset3: 
 --- !u!1 &1326683690
 GameObject:
@@ -10812,8 +10825,6 @@ GameObject:
   - component: {fileID: 1377284130}
   - component: {fileID: 1377284129}
   - component: {fileID: 1377284131}
-  - component: {fileID: 1377284133}
-  - component: {fileID: 1377284132}
   m_Layer: 0
   m_Name: GroundTile
   m_TagString: Untagged
@@ -20245,36 +20256,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1377284132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377284127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efa572fe5787524bb5cb05361ff6ace, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaset1: 
-  namaset2: 
-  namaset3: 
---- !u!114 &1377284133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377284127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efa572fe5787524bb5cb05361ff6ace, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaset1: 
-  namaset2: 
-  namaset3: 
 --- !u!1 &1383592013
 GameObject:
   m_ObjectHideFlags: 0
@@ -20976,8 +20957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   namaset1: student3
-  namaset2: 
-  namaset3: 
+  namaset2: student3_2
+  namaset3: student3_3
 --- !u!1 &1523651717
 GameObject:
   m_ObjectHideFlags: 0
@@ -22840,7 +22821,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1257093374, guid: 22894b05df778c04580bd0dd7eee7e76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

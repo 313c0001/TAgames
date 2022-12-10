@@ -17,6 +17,10 @@ public class student2 : MonoBehaviour
     public GameObject playerPosition;
     public static bool eventone_gotit = false;
     public static float eventone_select = 0;
+    public static float eventtwo_select = 0;
+    public static float eventtwo_san = 0;
+    public static bool WinOff = false;
+    //‰ï˜b‚ğ~‚ß‚½‚¢ê‡‚Í‚±‚±‚ğtrue‚É
 
 
     // Start is called before the first frame update
@@ -30,10 +34,19 @@ public class student2 : MonoBehaviour
     {
         if (sensei2.Groupe == 2)
         {
-            if (sensei2.bamen == 0)
+            if ((sensei2.bamen == 0) && (WinOff == false))
             {
                 hantei = 0;
             }
+            else if(sensei2.bamen ==1)
+            {
+                hantei = 10;
+            }
+            if (eventone_select != 0)
+            {
+                hantei = 10;
+            }
+            
         }
         
 
@@ -49,6 +62,9 @@ public class student2 : MonoBehaviour
                 nameset = namaset3;
                 break;
             case 3:
+                nameset = null;
+                break;
+            case 10:
                 nameset = null;
                 break;
 

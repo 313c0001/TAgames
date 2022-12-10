@@ -14,8 +14,10 @@ public class student4 : MonoBehaviour
     public static float select = 0;
     // どの選択肢をstudent1イベントで選んだかを格納する
     public static float hantei = 3;
-        public static bool eventone_gotit = false;
+    public static bool eventone_gotit = false;
     public static float eventone_select = 0;
+    public static float eventtwo_select = 0;
+    public static float eventtwo_san = 0;
 
 
     // Start is called before the first frame update
@@ -32,6 +34,10 @@ public class student4 : MonoBehaviour
             if (sensei2.bamen == 0)
             {
                 hantei = 0;
+            }
+            if (sensei2.bamen == 4)
+            {
+                hantei = 1;
             }
         }
 

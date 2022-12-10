@@ -105,16 +105,107 @@ public class UtageRecieveMessage : MonoBehaviour
                 student4.eventone_select = 3;
                 sensei2.oneday2ndON = true;
                 break;
-
-
-
-
-
-
-
-
-
-
+            case "matome1":
+                TAmazime2.WinOff = true;
+                break;
+            case "matome3":
+                TAmazime2.WinOff = true;
+                break;
+            case "matome4":
+                TAmazime2.WinOff = true;
+                break;
+            case "kotae":
+                student1.eventtwo_select = 1;
+                sensei2.bamen = 3;
+                break;
+            case "hint":
+                student1.eventtwo_select = 2;
+                sensei2.bamen = 3;
+                break;
+            case "siryou":
+                student1.eventtwo_select = 3;
+                sensei2.bamen = 3;
+                break;
+            case "bamen4":
+                sensei2.bamen = 4;
+                break;
+            case "bamen5":
+                sensei2.bamen = 5;
+                break;
+            case "bamen6":
+                sensei2.bamen = 6;
+                Debug.Log(sensei2.bamen);
+                TAmazime2.WinOff = false;
+                break;
+            case "riyu":
+                student3.eventtwo_select = 1;                
+                break;
+            case "yare":
+                student3.eventtwo_select = 2;
+                break;
+            case "help":
+                student3.eventtwo_select = 3;
+                break;
+            case "takusan":
+                student1.eventtwo_san = 1;
+                break;
+            case "rei":
+                student1.eventtwo_san = 2;
+                break;
+            case "itikara":
+                student1.eventtwo_san = 3;
+                break;
+            case "houkoku_P":
+                student3.eventtwo_san = 1;
+                break;
+            case "mawaru":
+                student3.eventtwo_san = 2;
+                break;
+            case "houkoku_TA":
+                student3.eventtwo_san = 3;
+                break;
+            case "okosu":
+                student4.eventtwo_select = 1;
+                break;
+            case "sensei_okosu":
+                student4.eventtwo_select =2;
+                break;
+            case "igai":
+                student4.eventtwo_select = 3;
+                break;
+            case "kogoe":
+                student2.eventtwo_select = 1;
+                break;
+            case "tikaku":
+                student2.eventtwo_select = 2;
+                break;
+            case "kyouin":
+                student2.eventtwo_select = 3;
+                break;
+            case "kaesu":
+                student2.eventtwo_san = 1;
+                break;
+            case "kyo":
+                student2.eventtwo_san = 2;
+                break;
+            case "iu":
+                student2.eventtwo_san =3;
+                break;
+            case "kakunin":
+                student4.eventtwo_san = 1;
+                break;
+            case "nashi":
+                student4.eventtwo_san = 2;
+                break;
+            case "sugu":
+                student4.eventtwo_san = 3;
+                break;
+            case "endset":
+                sensei.endset = true;
+                break;
+            case "bamen10":
+                sensei2.bamen = 10;
+                break;
             default:       
                 Debug.Log("Unknown Message!!:" + command.Name);
                 break;
