@@ -942,9 +942,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.100478455
+    x: 0.116427414
     y: 0
-    width: 0.79904306
+    width: 0.76714516
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -6339,9 +6339,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.100478455
+    x: 0.116427414
     y: 0
-    width: 0.79904306
+    width: 0.76714516
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -6709,9 +6709,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.100478455
+    x: 0.116427414
     y: 0
-    width: 0.79904306
+    width: 0.76714516
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -10654,8 +10654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   namaset1: student4
-  namaset2: student4_2
-  namaset3: 
+  namaset2: 
+  namaset3: student4_2
 --- !u!1 &1326683690
 GameObject:
   m_ObjectHideFlags: 0

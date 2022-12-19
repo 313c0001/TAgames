@@ -35,9 +35,13 @@ public class student4 : MonoBehaviour
             {
                 hantei = 0;
             }
+            if (sensei2.bamen == 3)
+            {
+                hantei = 3;
+            }
             if (sensei2.bamen == 4)
             {
-                hantei = 1;
+                hantei = 2;
             }
         }
 

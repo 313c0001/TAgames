@@ -206,6 +206,10 @@ public class UtageRecieveMessage : MonoBehaviour
             case "bamen10":
                 sensei2.bamen = 10;
                 break;
+            case "bamen0":
+                sensei2.bamen = 0;
+                break;
+            
             default:       
                 Debug.Log("Unknown Message!!:" + command.Name);
                 break;
